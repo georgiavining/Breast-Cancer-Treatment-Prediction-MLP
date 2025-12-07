@@ -1,0 +1,12 @@
+{
+    "num_layers": 2,
+    "units_0": 128,
+    "l2_reg": 0.01,
+    "dropout": 0.0,
+    "lr": 0.01,
+    "units_1": 64,
+    "tuner/epochs": 30,
+    "tuner/initial_epoch": 0,
+    "tuner/bracket": 0,
+    "tuner/round": 0
+}

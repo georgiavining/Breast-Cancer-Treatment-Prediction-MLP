@@ -1,0 +1,13 @@
+{
+    "num_layers": 1,
+    "units_0": 32,
+    "l2_reg": 0.0,
+    "dropout": 0.1,
+    "lr": 0.01,
+    "units_1": 128,
+    "tuner/epochs": 30,
+    "tuner/initial_epoch": 10,
+    "tuner/bracket": 1,
+    "tuner/round": 1,
+    "tuner/trial_id": "0076"
+}
