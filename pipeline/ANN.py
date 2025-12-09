@@ -7,7 +7,7 @@ def build_ANN(hp, input_dim):
 
     model.add(layers.Input(shape=(input_dim,)))
 
-    for i in range(hp.Int("num_layers", 1, 2)):
+    for i in range(hp.Int("num_layers", 1, 5)):
       model.add(
           layers.Dense(
               units=hp.Int(f"units_{i}", min_value=32, max_value=128, step=32),

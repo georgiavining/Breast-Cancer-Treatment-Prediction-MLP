@@ -26,11 +26,11 @@ def plot_feature_distributions(df, features, target):
     plt.title(f"{target} distribution")
     plt.show()
 
-def plot_target_distribution(y, title="Target Distribution"):
+def plot_target_distribution(y, title="RFS Distribution"):
     plt.figure(figsize=(8,5))
     sns.histplot(y, bins=30, kde=True, color="skyblue")
     plt.title(title)
-    plt.xlabel("Target Value")
+    plt.xlabel("RFS Value")
     plt.ylabel("Frequency")
     plt.show()
 
