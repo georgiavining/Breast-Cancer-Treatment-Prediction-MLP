@@ -12,18 +12,6 @@ Four experimental runs were conducted, each using a different data strategy, to 
 
 ---
 
-## Motivation
-
-Breast cancer treatment response varies significantly between patients, and standard chemotherapy regimens do not work equally well for everyone. Predicting relapse-free survival time *before* treatment begins could allow clinicians to:
-
-- Tailor chemotherapy protocols to individual patients
-- Identify high-risk patients who may benefit from more aggressive intervention
-- Reduce unnecessary treatment burden for patients likely to respond well
-
-This project explores whether machine learning — trained on pre-treatment clinical and imaging data — can meaningfully support these decisions.
-
----
-
 ## Dataset
 
 The model is trained on a dataset combining two sources of patient information:
